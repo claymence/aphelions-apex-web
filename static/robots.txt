@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /internal/
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /*.env
+Disallow: /*.log
+Crawl-delay: 5
+Sitemap: https://aphelions-apex.dev/sitemap.xml

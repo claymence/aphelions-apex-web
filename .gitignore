@@ -1,0 +1,30 @@
+# Project
+dev/
+
+# PM2 process manager configuration
+ecosystem.config.cjs
+
+# Node
+node_modules
+
+# SvelteKit
+/.svelte-kit
+/build
+
+# Panda CSS
+styled-system
+styled-system-studio
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# OS
+.DS_Store
+Thumbs.db

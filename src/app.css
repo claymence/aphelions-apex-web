@@ -1,0 +1,14 @@
+@layer reset, base, tokens, recipes, utilities;
+@import 'styled-system/styles.css';
+
+/* Root background - prevents white flash during load */
+html,
+body {
+	background-color: var(--colors-background);
+}
+
+/* Dark mode base background */
+html.dark,
+html.dark body {
+	background-color: var(--colors-background);
+}

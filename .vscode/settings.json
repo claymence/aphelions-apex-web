@@ -1,0 +1,30 @@
+{
+	// --- Formatting Core ---
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+
+	// --- Force Prettier as default formatter ---
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	// --- Per-language formatter enforcement ---
+	"[svelte]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// --- Optional but recommended ---
+	"prettier.requireConfig": true,
+	"prettier.useEditorConfig": true,
+
+	"svelte.enable-ts-plugin": true
+}
