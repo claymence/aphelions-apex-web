@@ -28,7 +28,7 @@ echo "→ Building project..."
 NODE_OPTIONS="--max-old-space-size=512" npm run build
 
 echo "→ Restarting PM2 app..."
-pm2 restart clay-sveltekit || pm2 start ecosystem.config.cjs
+pm2 restart aphelions-apex-web || pm2 start ecosystem.config.cjs
 
 echo "→ Saving PM2 state..."
 pm2 save
