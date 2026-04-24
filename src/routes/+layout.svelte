@@ -19,6 +19,8 @@
 		if (path.startsWith('/space/jwst')) return `JWST Gallery | ${siteTitle}`;
 		if (path.startsWith('/space')) return `Space | ${siteTitle}`;
 		if (path.startsWith('/about')) return `About | ${siteTitle}`;
+		if (path.startsWith('/contact')) return `Contact | ${siteTitle}`;
+		if (path.startsWith('/legal')) return `Legal Notice & Privacy | ${siteTitle}`;
 		return siteTitle;
 	});
 </script>

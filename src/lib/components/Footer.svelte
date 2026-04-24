@@ -17,4 +17,6 @@
 
 <footer class={className} aria-label="Footer">
 	<a href={resolve('/about')} class={footerLink}>About</a>
+	<a href={resolve('/contact')} class={footerLink}>Contact</a>
+	<a href={resolve('/legal')} class={footerLink}>Legal Notice & Privacy</a>
 </footer>

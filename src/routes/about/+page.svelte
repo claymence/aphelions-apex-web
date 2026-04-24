@@ -1,33 +1,16 @@
 <script lang="ts">
 	import { contained } from '$lib/styles/layout';
-
-	// eslint-disable-next-line @typescript-eslint/no-unused-vars
-	let { data } = $props();
-
-	function constructEmail(node: HTMLElement) {
-		const user = node.getAttribute('data-user');
-		const domain = node.getAttribute('data-domain');
-		if (user && domain) {
-			const email = `${user}@${domain}`;
-			const link = document.createElement('a');
-			link.href = `mailto:${email}`;
-			link.textContent = email;
-			node.appendChild(link);
-		}
-	}
 </script>
 
 <div class={contained}>
 	<h1>About</h1>
 
-	<div>
-		<p>This is a private project (work in progress).</p>
+	<p>Web app integrating API data from astronomy, like from the James Webb Space Telescope.</p>
 
-		<p>
-			Questions or feedback? Contact me at:
-			<!-- Email obfuscated to prevent spam -->
-			<span class="underline" data-user="clay" data-domain="aphelions-apex.dev" use:constructEmail
-			></span>
-		</p>
-	</div>
+	<p>This is a private project (work in progress).</p>
+
+	<p>
+		Source code: <a href="https://codeberg.org/claymence/aphelions-apex-web">Codeberg</a> /
+		<a href="https://github.com/claymence/aphelions-apex-web">GitHub</a>
+	</p>
 </div>

@@ -5,7 +5,9 @@ export function GET() {
 		{ path: '/', priority: '1.0' },
 		{ path: '/space', priority: '0.8' },
 		{ path: '/space/jwst', priority: '0.8' },
-		{ path: '/about', priority: '0.5' }
+		{ path: '/about', priority: '0.5' },
+		{ path: '/contact', priority: '0.5' },
+		{ path: '/legal', priority: '0.3' }
 	];
 
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>

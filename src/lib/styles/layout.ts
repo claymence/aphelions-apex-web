@@ -89,6 +89,7 @@ export const footer = css({
 	display: 'flex',
 	alignItems: 'center',
 	justifyContent: 'flex-end',
+	gap: '4',
 	padding: '6'
 });
 
