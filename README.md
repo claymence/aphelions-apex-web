@@ -24,7 +24,7 @@ Currently featuring JWST (James Webb Space Telescope) imagery and data through a
 ## API Integration
 
 - **Data Source**: JWST API (jwstapi.com)
-- **Pattern**: Server-side wrappers with normalization pipeline — raw API data is fetched, cached, normalized, and passed to the UI as typed, validated items
+- **Pattern**: Server-side wrappers with normalization pipeline - raw API data is fetched, cached, normalized, and passed to the UI as typed, validated items
 - **Validation**: All filters validated server-side before external calls
 - **Caching**: In-memory cache with TTL (5 minutes) based on filter parameters
 - **Rendering**: Server-side via `+page.server.ts` (no client-side data fetching)
@@ -43,5 +43,4 @@ Currently featuring JWST (James Webb Space Telescope) imagery and data through a
 
 Code is licensed under [MIT](./LICENSE). Original artwork and graphics in
 `/src/assets/` are © 2026 Clemens Wähner — all rights reserved.
-Please contact me for permission to use them. Third-party assets are
-subject to their respective licenses.
+Third-party assets are subject to their respective licenses.
