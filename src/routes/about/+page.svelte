@@ -5,9 +5,12 @@
 <div class={contained}>
 	<h1>About</h1>
 
-	<p>Web app integrating API data from astronomy, like from the James Webb Space Telescope.</p>
+	<p>Web application for exploring API data from astronomy.</p>
 
-	<p>This is a private project (work in progress).</p>
+	<p>
+		Currently featuring JWST (James Webb Space Telescope) imagery and data through an interactive
+		gallery interface.
+	</p>
 
 	<p>
 		Source code: <a href="https://codeberg.org/claymence/aphelions-apex-web">Codeberg</a> /
