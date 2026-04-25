@@ -51,6 +51,7 @@
 				use:constructEmail>clay [at] aphelions-apex.dev</span
 			>
 		</p>
+		<p>Or use the <a href={resolve('/contact')}>contact form</a>.</p>
 	</div>
 
 	<div class={spacer}></div>
@@ -80,6 +81,7 @@
 				use:constructEmail>clay [at] aphelions-apex.dev</span
 			>
 		</p>
+		<p>Or use the <a href={resolve('/contact')}>contact form</a>.</p>
 	</div>
 
 	<div class={spacer}></div>
